@@ -1,5 +1,11 @@
 // import React, { useContext } from "react";
 import "./NavMenu.css";
+import { AiFillHome, AiOutlineMessage, AiOutlinePlus } from "react-icons/ai";
+import { BsArrowUpRightCircle, BsFileBarGraph, BsShield } from "react-icons/bs";
+import { RiUserSettingsLine } from "react-icons/ri";
+import { IoIosNotificationsOutline } from "react-icons/io";
+import { CiCoinInsert } from "react-icons/ci";
+import { IoShirtOutline } from "react-icons/io5";
 // import { arr } from "../NavMenuArray";
 // import { useNavigate } from "react-router-dom";
 // import { MyContext } from "../../MyContext";
@@ -30,35 +36,36 @@ const NavMenu = () => {
       {/* <div className="nav-menu-icons-Feed"> */}
         <p style={{ fontSize: "0.8rem" }}>FEEDS</p>
         <button id="1">
-          <div className="nav-menu-icons" /> Home
+        {" "}
+          <AiFillHome div className="nav-menu-icons" /> Home
         </button>
         <button id="2">
-          <div className="nav-menu-icons" /> Popular
+          <BsArrowUpRightCircle div className="nav-menu-icons" /> Popular
         </button>
-        <button id="3">
-          <div className="nav-menu-icons" /> All
+        <button style={{ borderBottom: "1px solid black" }} id="3">
+          <BsFileBarGraph div  className="nav-menu-icons" /> All
         </button>
         <p style={{ fontSize: "0.8rem" }}>OTHER</p>
         <button id="4">
-          <div className="nav-menu-icons" /> User Setting
+          <RiUserSettingsLine div className="nav-menu-icons" /> User Setting
         </button>
         <button id="5">
-          <div className="nav-menu-icons" /> Message
+          <AiOutlineMessage div className="nav-menu-icons" /> Message
         </button>
         <button id="6">
-          <div className="nav-menu-icons" /> Create Post
+          <AiOutlinePlus div className="nav-menu-icons" /> Create Post
         </button>
         <button id="7">
-          <div className="nav-menu-icons" /> Notifications
+          <IoIosNotificationsOutline div className="nav-menu-icons" /> Notifications
         </button>
         <button id="8">
-          <div className="nav-menu-icons" /> Coins
+          <CiCoinInsert div className="nav-menu-icons" /> Coins
         </button>
         <button id="9">
-          <div className="nav-menu-icons" /> Premium
+          <BsShield div className="nav-menu-icons" /> Premium
         </button>
         <button id="10">
-          <div className="nav-menu-icons" /> Avatar
+          <IoShirtOutline div className="nav-menu-icons" /> Avatar
         </button>
       </div>
     </>

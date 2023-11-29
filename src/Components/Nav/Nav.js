@@ -6,7 +6,7 @@ import { FaReddit } from "react-icons/fa";
 import { RiContactsLine } from "react-icons/ri";
 import {
   // BsArrowUpRightCircle,
-  // BsChevronDown,
+  BsChevronDown,
   BsQrCodeScan,
 } from "react-icons/bs";
 const style = {
@@ -45,7 +45,7 @@ const Nav = () => {
             </button>
             <div className="reddit_Clone-nav_before_login">
               <RiContactsLine className="reddit_clone-contact_icon" />
-              {/* <BsChevronDown /> */}
+              <BsChevronDown />
             </div>
           </div>
         </div>
